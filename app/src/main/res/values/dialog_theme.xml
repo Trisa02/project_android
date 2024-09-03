@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomAlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Apply the custom background drawable -->
+        <item name="android:background">@drawable/dialog_background</item>
+        <!-- Set color for the title and message text -->
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:textColorSecondary">#000000</item>
+    </style>
+</resources>

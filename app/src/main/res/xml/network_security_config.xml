@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <!--    <domain includeSubdomains="true">10.0.2.2</domain> &lt;!&ndash; Untuk emulator &ndash;&gt;-->
+        <domain includeSubdomains="true">172.16.2.107</domain>   Untuk perangkat fisik
+    </domain-config>
+</network-security-config>
